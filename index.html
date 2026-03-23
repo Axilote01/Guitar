@@ -1,100 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Saya</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Profil Danu Miharja | Musisi & Tech Learner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Menu -->
     <nav>
-        <div class="logo">
-            <h1>Danu</h1>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-me">Tentang Saya</a></li>
-            <li><a href="#guitar-collection">Koleksi Gitar</a></li>
-        </ul>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>Danu<span>.</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#guitar-collection">Koleksi</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
-    <!-- Header -->
     <header id="home">
-        <div class="header-content">
-            <img src="★ _ _ Kaoruko Waguri.jpeg" alt="Foto Profil" class="profile-pic">
-            <h1 class="gradient-text">Danu Miharja</h1>
-            <p>Hobi bermain gitar dan belajar hal baru</p>
-            <a href="https://www.instagram.com/ryfall2?igsh=MTJsY2ZrOHA4eHBlbw==" target="_blank" class="ig-link">Ikuti Saya di Instagram</a>
-        </div>
         <div class="background-animation"></div>
+        <div class="header-content">
+            <div class="profile-frame">
+                <img src="profil.webp" alt="Danu Miharja" class="profile-pic">
+            </div>
+            <h1 class="gradient-text">Danu Miharja</h1>
+            <p class="tagline">Gitaris & Pembelajar Teknologi</p>
+            <div class="cta-buttons">
+                <a href="https://www.instagram.com/ryfall2" target="_blank" class="btn ig-link">Instagram</a>
+                <a href="mailto:danumiharja2020@gmail.com" class="btn email-link">Kontak Saya</a>
+            </div>
+        </div>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about-me">
-        <h2>Tentang Saya</h2>
-        <p>Saya lulusan dari SMK ROSMA Karawang yang memiliki ketertarikan terhadap musik <br>juga saat ini saya sedang mempelajari hal-hal baru seperti mempelajari coding, personal branding, dan beberapa bagian microsoft khususnya untuk excel dan word</p>
-        <div class="about-images">
-            <img src="playing.jpg" alt="Bermain Gitar">
-            <img src="chord.jpg" alt="Perjalanan Musik">
+    <section id="about-me" class="container">
+        <div class="section-title">
+            <h2>Tentang Saya</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Halo! Saya lulusan <strong>SMK ROSMA Karawang</strong>. Musik adalah gairah saya, terutama dalam memetik senar gitar. Saat ini, 
+                    saya sedang menantang diri untuk menguasai dunia baru: <em>coding</em>, <em>personal branding</em>, <em>teknisi wifi</em>, serta optimasi Microsoft Office (Excel & Word).</p>
+            </div>
+            
+            <div class="about-images-container">
+                <img src="playing gitar.jpg" alt="Bermain Gitar" class="music-pic">
+                <img src="chord.jpg" alt="Perjalanan Musik/Kunci Gitar" class="music-pic">
+            </div>
         </div>
     </section>
 
-    <!-- Guitar Collection Section -->
-    <section id="guitar-collection">
-        <h2>Koleksi Gitar Saya</h2>
+    <section id="skills" class="container">
+        <div class="section-title">
+            <h2>Apa yang Saya Pelajari</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Web Dev</h3>
+                <p>HTML & CSS</p>
+            </div>
+            <div class="skill-card">
+                <h3>MS Office</h3>
+                <p>Excel & Word</p>
+            </div>
+            <div class="skill-card">
+                <h3>Branding</h3>
+                <p>Social Media</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <div class="section-title">
+            <h2>Pengalaman Kerja</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="experience-timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Praktik Kerja Lapangan (PKL) - Sport and Recreation</h3>
+                    <h4>Hotel Resinda Karawang</h4>
+                    <p class="date">Juli 2023 - Januari 2024</p>
+                    <p>Mengelola fasilitas kebugaran/rekreasi, merancang dan memimpin aktivitas tamu (seperti yoga, kolam renang, olahraga), menjaga keselamatan tamu (sebagai lifeguard), serta memastikan kebersihan dan perawatan peralatan olahraga, guna memberikan pengalaman menginap yang menyenangkan, aman, dan tak terlupakan.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Teknisi Dismantle Wifi Indosat</h3>
+                    <h4>PT. Quantum Nusatama</h4>
+                    <p class="date">November 2025 - Sekarang</p>
+                    <p>Melakukan pencabutan, pelepasan, dan penarikan kembali perangkat jaringan (modem/ONT, Access Point, kabel FO) dari lokasi pelanggan akibat terminasi layanan, relokasi, atau penggantian perangkat. Memastikan perangkat kembali dengan aman dan kabel dirapikan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="guitar-collection" class="container">
+        <div class="section-title">
+            <h2>Koleksi Gitar</h2>
+            <div class="underline"></div>
+        </div>
         <div class="guitar-gallery">
-            <div class="guitar-item">
-                <img src="mandalika gitar.png" alt="Gitar 1">
-                <h3>Gitar Akustik</h3>
-                <p>GITAR Akustik Mandalika De Ticco Series DTS-01TY-NT-KP</p>
+            <div class="guitar-item card">
+                <div class="img-container"><img src="mandalika gitar.png" alt="Gitar Akustik"></div>
+                <div class="card-info">
+                    <h3>Gitar Akustik</h3>
+                    <p>Mandalika De Ticco Series DTS-01TY-NT-KP. Suara garing dan nyaman untuk fingerstyle.</p>
+                </div>
             </div>
-            <div class="guitar-item">
-                <img src="semoga.png" alt="Gitar 2">
-                <h3>Gitar Elektrik</h3>
-                <p></p>
+            <div class="guitar-item card">
+                <div class="img-container"><img src="semoga.png" alt="Gitar Elektrik"></div>
+                <div class="card-info">
+                    <h3>Gitar Elektrik</h3>
+                    <p>Partner andalan untuk eksplorasi efek distorsi dan genre Rock.</p>
+                </div>
             </div>
-            <div class="guitar-item">
-                <img src="semoga.png" alt="Gitar 3">
-                <h3>Gitar Klasik</h3>
-                <p></p>
+            <div class="guitar-item card">
+                <div class="img-container"><img src="semoga.png" alt="Gitar Klasik"></div>
+                <div class="card-info">
+                    <h3>Gitar Klasik</h3>
+                    <p>Fokus pada teknik petikan nilon yang lembut dan klasik.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Ryfall. Semua Hak Cipta Dilindungi.</p>
+        <p>&copy; 2024 Danu. Dibuat dengan semangat belajar.</p>
     </footer>
 
-    <!-- JavaScript for Responsive Menu -->
     <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
 
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active'); // Toggle kelas active
-        navLinks.classList.toggle('open');
-    });
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
 
-    navLinks.addEventListener('click', (e) => {
-        if (e.target.tagName === 'A') {
-            navLinks.classList.remove('open');
-            hamburger.classList.remove('active'); // Tutup animasi hamburger
-        }
-    });
-});
-
-
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('active');
+            });
+        });
     </script>
 </body>
 </html>
-
-
-
